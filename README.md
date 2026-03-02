@@ -1,7 +1,7 @@
-# 📝 Actodo - Task Management App
+# 📝 Actodo - React Todo Application
 
-Actodo is a simple and responsive Todo application built using **React** and **Tailwind CSS**.  
-It allows users to create an account, log in, and manage their daily tasks efficiently.
+Actodo is a simple and responsive Todo application built using **React (Legacy Version)** and **Tailwind CSS**.  
+This project includes authentication pages (Login & Signup) and a main Todo dashboard where users can manage their daily tasks.
 
 ---
 
@@ -19,22 +19,25 @@ It allows users to create an account, log in, and manage their daily tasks effic
 
 ## ✨ Features
 
-- 🔐 User Authentication (Login & Signup)
-- ➕ Add New Tasks
-- ✅ Mark Tasks as Completed
+- 🔐 User Login Page
+- 📝 User Signup Page
+- ➕ Add New Activities
+- 📋 Manage Activities
+- 📆 Today Activity Section
 - 🗑️ Delete Tasks
-- 🎨 Clean and Responsive UI
-- ⚡ Fast Performance with Vite
-- 📱 Mobile Friendly Design
+- 🎨 Responsive UI using Tailwind CSS
+- ⚡ Fast build with Vite
+- 🌐 Deployed on Vercel
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- ⚛️ React (Vite)
+- ⚛️ React (Old Version)
 - 🎨 Tailwind CSS
-- 🔥 Modern JavaScript (ES6+)
-- 🌐 Vercel (Deployment)
+- ⚡ Vite
+- 📦 JavaScript (ES6)
+- 🚀 Vercel (Deployment)
 
 ---
 
@@ -46,9 +49,17 @@ actodo/
 ├── public/
 ├── src/
 │   ├── components/
+│   │   ├── AddActivity.jsx
+│   │   ├── Card.jsx
+│   │   ├── Header.jsx
+│   │   ├── ManageActivity.jsx
+│   │   ├── TodayActivity.jsx
+│   │   └── Todocontainer.jsx
+│   │
 │   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
 │
 ├── package.json
 └── README.md
@@ -56,27 +67,27 @@ actodo/
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation Guide
 
-Clone the repository:
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/UTHRAGIRI2005/actodo.git
 ```
 
-Navigate to project folder:
+### 2️⃣ Navigate to Project Folder
 
 ```bash
 cd actodo
 ```
 
-Install dependencies:
+### 3️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server:
+### 4️⃣ Run the Project
 
 ```bash
 npm run dev
@@ -84,24 +95,25 @@ npm run dev
 
 ---
 
-## 📌 Future Improvements
+## 🎯 Future Enhancements
 
-- 🔄 Edit Tasks Feature
-- 🌙 Dark Mode
-- ☁️ Backend Integration (Database)
-- 🔐 JWT Authentication
-- 📊 Task Filtering (All / Completed / Pending)
+- ✏️ Edit Task Feature
+- 🌙 Dark Mode Support
+- 🔐 Proper Authentication Backend
+- 🗄️ Database Integration
+- 📊 Task Filtering Options
+- 🔄 Update to Latest React Version
 
 ---
 
-## 🙋‍♂️ Author
+## 👨‍💻 Author
 
-**Uthragiri K**
+**UTHRAGIRI K**
 
-If you like this project, feel free to ⭐ the repository!
+If you like this project, please give it a ⭐ on GitHub!
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.# actodo
+This project is open-source and available for learning purposes.
